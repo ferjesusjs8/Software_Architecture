@@ -1,4 +1,4 @@
-﻿namespace OOP._01___Classe_x_Objeto
+﻿namespace OOP
 {
     // Definicao Classe
     public class Casa
