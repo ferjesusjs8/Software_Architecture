@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OOP
+﻿namespace OOP
 {
     public abstract class Eletrodomestico
     {
@@ -18,5 +14,15 @@ namespace OOP
         public abstract void Ligar();
 
         public abstract void Desligar();
+
+        public virtual void Testar()
+        {
+            //Efetua o teste do equipamento;
+        }
+
+        public void AvisoSonoro()
+        {
+
+        }
     }
 }

@@ -22,8 +22,15 @@ namespace OOP
 
         public void PrepararCafe()
         {
+            AvisoSonoro();
+            Testar();
             AquecerAgua();
             MoerGraos();
+        }
+
+        public override void Testar()
+        {
+            // Teste da cafeteira;
         }
 
         public override void Ligar()
